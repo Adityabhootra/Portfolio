@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    background-image: url(https://img.wallpapersafari.com/desktop/1920/1080/58/81/SGBTp8.png);
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.bar {
+    width: 25px;
+    height: 3 ; }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">Aditya Bhootra</h1>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="burger-menu">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, Welcome to my portfolio website. Myself Aditya Bhootra. I am currently pursuing B.tech in Civil Engineering in IIT Madras. 
+                Because of the coding environment here in IIT Madras, I got drawn towards web-development and decided to become a software developer.
+                Following this attracrion, I became a web-ops coordinator in SOC (Sports Organising Committee) of IIT Madars and designes a website with 
+                3-4 other coordinators of the team. I also made some on my own. Here are the names and their Github links:- 
+            </p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+            
+                <h3>An E-Commerce Website || <a href="https://github.com/Adityabhootra/ECommerce-Website">View Github Repository</a></h3>
+                I have built an eCommerce platform from the ground up with React, Redux and Django. I have added features like:-
+                    <br>1]Full featured shopping cart with PayPal & credit/debit payments. </br>
+                    2]Product rating & review system. 
+                    <br>3]An actual real-world project built in a linear and progressive manner.</br>
+                    4]Admin area to manage customers, products & orders. 
+                   <br> 5]Product search, carousel, pagination & more
+                </p>
+                
+            </div>
+
+           <br> <div class="project">
+                
+                <h3>News App || <a href="https://github.com/Adityabhootra/News-App">View Github Repository</a></h3>
+                <p>•	An android app which lets you share and read news.
+                   <br> •	It fetch news from API and list them inside a RecyclerView.
+                    •	Also in this project I learn how to load data from API and show in RecyclerView.
+                    </p>
+               
+            </div>
+
+
+           <br> <div class="project">
+                
+                <h3>Real-Estate Website || <a href="https://github.com/Adityabhootra/Real-Estate-Website">View Github Repository</a></h3>
+                <p>In this project, I have built a location-based real estate website. 
+                    It is a full stack web application with Django powering the backend and React Js the frontend.
+                <br>I built the frontend very fast by using Material UI which is a very easy and intuitive React library for building UI components.
+                I then built the API with Django Rest Framework (DRF) and I made requests to the API with React.
+                I added a geographic aspect to this project by placing the property listings on a map. 
+                I achieveD that with React-Leaflet which provides a binding between React and Leaflet library.
+                </p>
+                
+            </div>
+
+           <br> <div class="project">
+                
+                <h3>MI Store Clone App || <a href="https://github.com/Adityabhootra/MI-store-">View Github Repository</a></h3>
+                <p>•	This is the clone of mi store
+                  <br>  •	The technologies used in this project are HTML, CSS, JavaScript, Reactjs and react hooks.
+                    </p>
+                
+            </div>
+            <!-- Add more project divs as needed -->
+        </div>
+
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email:- adityamaheshwari178@gmail.com
+               <br> Mobile:- 9116824978 
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
